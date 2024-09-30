@@ -1,0 +1,160 @@
+/* icon part */
+.icon {
+  font-size: 1.6rem;
+  /* color: black; */
+  font-weight: bolder;
+  transition: all .5s;
+}
+
+.icon-c {
+  padding: .5rem;
+  color: white;
+}
+
+
+.in {
+  color: rgb(0, 34, 255);
+  text-align: center;
+  padding-top: 4px;
+}
+
+.html {
+  color: orangered;
+}
+
+.css {
+  color: blue;
+}
+
+.js {
+  color: rgb(255, 179, 0);
+
+}
+
+
+/* navigation */
+.nav,
+.nav:link,
+.nav:visited {
+  font-size: 1.4rem;
+  color: rgb(55, 55, 55);
+  text-transform: capitalize;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.nav:hover,.nav:active{
+  color: rgb(34, 0, 255);
+}
+
+/* Underline effect */
+.nav::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(34, 0, 255); /* Same color as hover text */
+  bottom: -3px; /* Adjust to position the line slightly below the text */
+  left: 0;
+  transform: scaleX(0); /* Initially hidden by scaling */
+  transform-origin: left; /* Start the transform from the left */
+  transition: transform 0.3s ease; /* Smooth animation */
+}
+
+/* Hover effect for the underline */
+.nav:hover::after {
+  transform: scaleX(1); /* Expands the line from left to right */
+  transform-origin: left; /* Ensures it grows from left to right */
+}
+
+/* Effect when unhovering */
+.nav::after {
+  transform-origin: right; /* Line retracts to the right when hover ends */
+}
+
+/* btns */
+
+.btn,
+.btn:link,
+.btn:visited {
+  padding: 0.4rem 2.8rem;
+  border-radius: 5rem;
+  border: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 650;
+  box-shadow: 0 0 10px 1px rgba(110, 110, 110, 0.502);
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+  transition: all .3s;
+background-color: white;
+
+}
+
+.btn:hover,
+.btn:active {
+  box-shadow: 0 0 10px 1px rgb(137, 251, 255);
+  color: aqua;
+  background-color: rgba(0, 0, 0, 0.999);
+
+}
+
+.btn-cta,
+.btn-cta:link,
+.btn-cta:visited {
+  background-color: rgba(0, 0, 0, 0.912);
+  color: rgb(255, 255, 255);
+}
+
+.btn-cta:hover,
+.btn-cta:active {
+  box-shadow: 0 0 10px 1px rgb(137, 251, 255);
+  color: rgba(0, 0, 0, 0.885);
+  background-color: rgba(255, 255, 255, 0.642);
+
+}
+
+.btn:hover .icon {
+  color: rgb(0, 204, 255);
+  transform: rotate(180deg); /* Optional: add some animation like rotation */
+}
+
+.btn:hover .icon-c {
+color: blue;
+}
+
+
+/* container */
+.container {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+/* headlines */
+
+.heading {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.sub-heading {
+  font-size: 3rem;
+  font-weight: 700;
+
+}
+
+.sub-heading-1 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.part-head {
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+}

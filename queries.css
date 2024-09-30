@@ -1,0 +1,270 @@
+@media (max-width: 950px) {
+
+  .heading {
+    font-size: 3.2rem;
+  }
+
+  .sub-heading {
+    font-size: 2.2rem;
+  }
+
+  .sub-heading-1 {
+    font-size: 1.6rem;
+  }
+
+  /* hero section */
+  .hero-des p {
+    font-size: 1.6rem;
+  }
+
+  /* project section */
+
+  .project {
+    max-width: 85rem;
+  }
+
+  .project-des {
+    font-size: 1.4rem;
+  }
+
+  /* skill & expertise */
+  .skill p {
+    font-size: 1.4rem;
+  }
+
+  /* about section */
+  .about-section p {
+    font-size: 1.4rem;
+  }
+
+  /* contact section */
+  .contact-hd p {
+    font-size: 1.4rem;
+  }
+
+  .form-part label {
+    font-size: 1.4rem;
+  }
+
+  .form-part input,
+  .form-part select {
+    font-size: 1.6rem;
+  }
+
+}
+
+@media (max-width: 700px) {
+
+  /* hero section */
+  .my-img {
+    width: 12rem;
+  }
+
+  .whatsapp-sec{
+    margin-top: 7rem;
+    gap: 4rem;
+  }
+
+}
+
+@media (max-width:550px) {
+
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .heading {
+    font-size: 2.6rem;
+  }
+
+  .sub-heading {
+    font-size: 1.6rem;
+  }
+
+  .sub-heading-1 {
+    font-size: 1.4rem;
+  }
+
+  .nav {
+    font-size: 1rem;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 1rem;
+    padding: .4rem 2rem;
+  }
+
+  /* navigation */
+
+  .head-nav {
+    position: absolute;
+    transition: all .5s ease;
+  }
+
+.v {
+    opacity: 1;
+    visibility: visible;
+    /* padding: 0 1rem; */
+    font-size: 2.6rem;
+  }
+
+  .left {
+    top: 1rem;
+    left: -15.4rem;
+  }
+
+  .right {
+    top: 1rem;
+    right: -12rem;
+  }
+
+  .show-left {
+    left: 1rem;
+  }
+
+  .show-right {
+    right: 1rem;
+  }
+
+  /* hero section */
+  .hero-des p {
+    font-size: 1.4rem;
+  }
+
+  /* project section */
+
+  .project {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 2rem 2rem 7rem 2rem;
+    row-gap: 5rem;
+  }
+
+  .project-vid:nth-child(3) {
+    grid-row: 4;
+  }
+
+  .project-des-part {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-des {
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  /* skill & expertise */
+
+  .skills {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 3rem;
+  }
+
+  .skill p {
+    font-size: 1rem;
+  }
+
+  .icon-skill {
+    font-size: 4.6rem;
+  }
+
+  /* about section */
+  .about-section p {
+    font-size: 1rem;
+  }
+
+  /* contact section */
+
+  .form {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-hd p {
+    font-size: 1rem;
+  }
+
+  .form-part label {
+    font-size: 1rem;
+  }
+
+  .form-part input,
+  .form-part select {
+    font-size: 1.2rem;
+  }
+
+  .form-btn {
+    /* max-width: 28.8rem; */
+    height: 3rem;
+  }
+
+  .whatsapp-sec{
+    margin-top: 7rem;
+    gap: 4rem;
+  }
+
+  /* footer */
+  .copyright {
+    font-size: 1.2rem;
+  }
+
+}
+
+@media (max-width:400px){
+  
+  .heading {
+    font-size: 2rem;
+  }
+
+  .sub-heading {
+    font-size: 1.4rem;
+  }
+
+  .sub-heading-1 {
+    font-size: 1.2rem;
+  }
+
+  .nav {
+    font-size: 1rem;
+  }
+
+  .hero-des p {
+    font-size: 1.2rem;
+  }
+
+  .hero-section {
+    height: 55rem;
+  }
+
+  .my-img {
+    width: 10rem;}
+
+    .hero-f1{
+      margin-top: 6rem;
+    }
+
+.form{
+  row-gap: 2rem;
+}
+
+.form-part{
+  gap: 0rem;
+}
+    .form-part input,
+.form-part select{
+  font-size: 1.4rem;
+  padding: .8rem;
+}
+}
